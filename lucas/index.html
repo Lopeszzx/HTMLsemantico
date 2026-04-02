@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Semantico</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="grupo">
+        <header class="cabecalho">
+            <h1>Site Semantico</h1>
+            <nav class="menu">
+                <a href="#">Início</a>
+                <a href="#">Sobre</a>
+                <a href="#">Contrato</a>
+                </nav>
+                        </header>
+                        <div class="conteudo">
+                        <nav class="navegacao">
+                <h2>Meu Lateral</h2>
+                    <ul>
+                        <li>Prfil</li>
+                        <li>Configuração</li>
+                        <li>Ajuda</li>
+                    </ul>
+                        </nav>
+                        <section class="sessao">
+                <h2>Painel Principal</h2>
+                <p>Nome: <span id="nomeUsuario">Lucas</span></p>
+                <p>Curso: Desenvolvendo Web Front-End</p>
+                <p>Status: Ativo</p>
+                <h3>Alterar Nome</h3>
+                <div class="formulario">
+                    <input type="text" name="inputNome" id="inputNome">
+                    <button onclick="alterarNome()">alterar</button>
+                </div>
+           </section>
+           <hr>
+            </div>
+        <footer class="rodape">
+            <p>&copy; Desenvolvido por <strong>LUCAS LOPES</strong></p>
+            <div class="redes">
+        <a href=""><img src="https://cdn-icons-png.flaticon.com/24/2111/2111463.png " alt="Instagram">@Lopeszzx</a>
+         <a href=""><img src="https://cdn-icons-png.flaticon.com/24/733/733553.png " alt="Github">@Lopeszzx</a>
+         </div>
+     </footer>
+    </div>
+  <script src="script.js"></script>
+</body>
+</html>
